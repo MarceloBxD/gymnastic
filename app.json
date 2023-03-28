@@ -1,4 +1,25 @@
 {
   "name": "gymnastic",
+    "slug": "gymnastic",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "platforms": ["ios", "android"],
+"ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jxvtrl.uerjsubjectsprogress"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.jxvtrl.uerjsubjectsprogress"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "74b79818-d14f-471b-8af3-486e92405f90"
+      }
+    },
   "displayName": "gymnastic"
 }
